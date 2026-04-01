@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367f') no-repeat center/cover;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 10px black;
+}
+
+nav {
+    background-color: #111827;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #22c55e;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4ade80;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #1f2933;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+    color: #22c55e;
+}
+
+/* KÉP GRID */
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #111827;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #111827;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
