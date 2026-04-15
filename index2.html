@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Ultimate Pro Portal 2026</title>
+    <style>
+        /* PRÉMIUM SÖTÉT DESIGN */
+        :root {
+            --primary: #ff9d00;
+            --secondary: #4CAF50;
+            --bg-dark: #050505;
+            --card-bg: #121212;
+            --border: #222;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+
+        body { 
+            font-family: 'Inter', 'Segoe UI', sans-serif; 
+            background-color: var(--bg-dark); 
+            color: var(--text-main); 
+            line-height: 1.8; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .container { 
+            max-width: 1200px; 
+            margin: 40px auto; 
+            background: var(--card-bg); 
+            padding: 60px; 
+            border-radius: 20px; 
+            box-shadow: 0 20px 50px rgba(0,0,0,0.9); 
+        }
+
+        /* TYPOGRAPHY */
+        h1 { font-size: 4em; color: var(--primary); text-align: center; margin-bottom: 10px; text-transform: uppercase; font-weight: 900; }
+        .subtitle { text-align: center; color: var(--text-dim); margin-bottom: 50px; font-size: 1.2em; letter-spacing: 2px; }
+        h2 { font-size: 2.2em; color: var(--primary); border-left: 8px solid var(--primary); padding-left: 20px; margin-top: 80px; margin-bottom: 30px; }
+        h3 { color: var(--secondary); font-size: 1.5em; margin-top: 30px; }
+        p { margin-bottom: 20px; }
+
+        /* MAJOR MEGA SECTION */
+        .major-hero {
+            background: linear-gradient(135deg, #0f2a0f 0%, #050505 100%);
+            border: 1px solid var(--secondary);
+            padding: 40px;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        .major-hero::before {
+            content: "LIVE FROM BUDAPEST";
+            position: absolute;
+            top: 20px;
+            right: -30px;
+            background: var(--secondary);
+            color: black;
+            padding: 5px 40px;
+            transform: rotate(45deg);
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        /* GRID SYSTEM */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin: 40px 0; }
+        .card { 
+            background: #181818; 
+            border-radius: 12px; 
+            border: 1px solid var(--border); 
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            height: 100%;
+        }
+        .card:hover { transform: translateY(-10px); border-color: var(--primary); background: #1c1c1c; }
+        .card img { width: 100%; height: 220px; object-fit: cover; filter: grayscale(20%); }
+        .card:hover img { filter: grayscale(0%); }
+        .card-content { padding: 25px; }
+
+        /* ECONOMY SECTION */
+        .economy-box {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px dashed #444;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .econ-item { text-align: center; padding: 10px; }
+        .econ-val { display: block; font-size: 1.5em; color: var(--primary); font-weight: bold; }
+
+        /* TABLES */
+        .flex-tables { display: flex; gap: 40px; flex-wrap: wrap; margin-top: 40px; }
+        .table-container { flex: 1; min-width: 450px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #0f0f0f; border-radius: 10px; overflow: hidden; }
+        th, td { padding: 18px; text-align: left; border-bottom: 1px solid #222; }
+        th { background: #1a1a1a; color: var(--primary); font-size: 0.9em; letter-spacing: 1px; }
+        tr:hover { background: #151515; }
+        .highlight { color: var(--primary); font-weight: bold; }
+
+        /* SETTINGS BOX */
+        .settings-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; background: #0a0a0a; padding: 20px; border-radius: 10px; }
+        .setting-card { padding: 15px; border-bottom: 1px solid var(--primary); }
+
+        footer { text-align: center; margin-top: 100px; padding: 40px; border-top: 1px solid #222; color: #555; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5em; }
+            .container { padding: 20px; }
+            .table-container { min-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CS2 PRO DATABASE</h1>
+    <p class="subtitle">GLOBAL OFFENSIVE EVOLUTION // VERSION 2026.04</p>
+
+    <div class="major-hero">
+        <h2 style="border:none; margin:0; color:var(--secondary);">🇭🇺 StarLadder Budapest Major 2025</h2>
+        <p>A Papp László Budapest Sportaréna 15.000 fős teltháza előtt zajlott le a CS2 eddigi legikonikusabb Major tornája. Az esemény nemcsak a nézőszámok miatt volt kiemelkedő, hanem a technikai újítások és a magyar közönség hihetetlen energiája miatt is.</p>
+        
+        <div class="flex-tables">
+            <div class="table-container">
+                <h3>Szakaszok Eredményei</h3>
+                <table>
+                    <tr><td>Opening Stage</td><td>Team Spirit (3-0)</td></tr>
+                    <tr><td>Elimination Stage</td><td>G2 Esports (3-1)</td></tr>
+                    <tr><td>Playoffs Venue</td><td>Papp László Sportaréna</td></tr>
+                </table>
+            </div>
+            <div class="table-container">
+                <h3>A Nagy Döntő (Finals)</h3>
+                <p><strong>Team Vitality vs FaZe Clan</strong><br>
+                A Vitality dominanciája megtörhetetlen volt. ZywOo 1.45-ös ratinggel zárta a döntőt, ropz pedig korábbi csapata ellen játszott élete formájában.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Fegyver Technológia és Meta</h2>
+    <p>A CS2-ben a fegyverek viselkedése jelentősen megváltozott a korábbi verziókhoz képest a "sub-tick" rendszer miatt. Íme a profik választásai:</p>
+    
+    <div class="grid">
+        <div class="card">
+            <img src="https://egw.news/_next/image?url=https%3A%2F%2Fegw.news%2Fuploads%2Fnews%2F1%2F17%2F1720512068008_1720512068008.webp&w=750&q=75" alt="AK-47">
+            <div class="card-content">
+                <h3>AK-47 | A Támadó Erő</h3>
+                <p>A profik körében az AK-47 az abszolút első helyen áll. 2026-ban a meta a rövid, 2-3 golyós sorozatokra (burst) és a precíz "tapping"-re épül. A "sub-tick" miatt a lövések pontosabban regisztrálnak a fejre mozgás közbeni megálláskor.</p>
+                <strong>Pro Tipp:</strong> Tanuld meg a spray-mintát az első 10 golyóra, mert a CS2-ben a vizuális visszajelzés csalóka lehet!
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://wiki.cs.money/images/weapons/m4a1-s/default.png" alt="M4A1-S">
+            <div class="card-content">
+                <h3>M4A1-S | A Csendes Gyilkos</h3>
+                <p>Bár sebzése távolra csökkent, a profik még mindig előnyben részesítik a szűk spray és a füstön keresztüli láthatatlan lövések miatt. 2026-ban a CT-oldal gazdasága nehézkes, így a 2900$-os ár kulcsfontosságú.</p>
+                <strong>Pro Tipp:</strong> Mindig tarts távolságot az AK-47 ellen, használd ki a pontosságodat!
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://wiki.cs.money/images/weapons/awp/default.png" alt="AWP">
+            <div class="card-content">
+                <h3>AWP | A Területi Kontroll</h3>
+                <p>Az AWP-sek szerepe megváltozott: kevesebb az agresszív "peeking", több az információszerzés és a biztos tartás. A CS2-ben a "peekers advantage" (a támadó előnye) miatt az AWP-seknek gyorsabb reflexekre van szükségük, mint valaha.</p>
+                <strong>Pro Tipp:</strong> Ne állj egy helyben lövés után, a CS2 füstök gyorsabban reagálnak a mozgásra!
+            </div>
+        </div>
+    </div>
+
+    <h2>Gazdasági Rendszer (Economy 2.0)</h2>
+    <div class="economy-box">
+        <div class="econ-item"><span class="econ-val">$3250</span>Körgyőzelem</div>
+        <div class="econ-item"><span class="econ-val">$1400</span>Körvesztés (L1)</div>
+        <div class="econ-item"><span class="econ-val">$800</span>Bombaplant bónusz</div>
+        <div class="econ-item"><span class="econ-val">$16000</span>Maximum pénz</div>
+    </div>
+
+    <h2>Aktuális Versenypályák</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://blog.counter-strike.net/wp-content/uploads/2023/03/mirage_social.jpg" alt="Mirage">
+            <div class="card-content">
+                <h3>Mirage (De_Mirage)</h3>
+                <p>A legtöbbet játszott pálya. A középső terület (Mid) uralása alapvető. A Budapest Major döntőjében a Vitality itt mutatta be a legkomplexebb "A-split" taktikáit.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://blog.counter-strike.net/wp-content/uploads/2023/03/anubis_social.jpg" alt="Anubis">
+            <div class="card-content">
+                <h3>Anubis (De_Anubis)</h3>
+                <p>A leggyorsabb pálya a poolban. A T-oldal rengeteg lehetőséget kap a gyors rotálásra a csatornákon keresztül. A CT-knek agresszív előretolulással kell védekezniük.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://blog.counter-strike.net/wp-content/uploads/2023/03/ancient_social.jpg" alt="Ancient">
+            <div class="card-content">
+                <h3>Ancient (De_Ancient)</h3>
+                <p>A CS2 vízuális csúcsa. A barlangok és a templomok közötti harc a gránátok (utilities) tökéletes időzítésén múlik. Nagyon CT-domináns pálya.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-tables">
+        <div class="table-container">
+            <h2>🏆 Top 10 Világranglista</h2>
+            <table>
+                <thead>
+                    <tr><th>#</th><th>Csapat</th><th>Pontszám</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td class="highlight">1</td><td>Team Vitality</td><td>1000</td></tr>
+                    <tr><td class="highlight">2</td><td>Natus Vincere</td><td>850</td></tr>
+                    <tr><td class="highlight">3</td><td>Team Spirit</td><td>820</td></tr>
+                    <tr><td class="highlight">4</td><td>FaZe Clan</td><td>790</td></tr>
+                    <tr><td class="highlight">5</td><td>FURIA</td><td>640</td></tr>
+                    <tr><td class="highlight">6</td><td>G2 Esports</td><td>610</td></tr>
+                    <tr><td class="highlight">7</td><td>MOUZ</td><td>580</td></tr>
+                    <tr><td class="highlight">8</td><td>The MongolZ</td><td>550</td></tr>
+                    <tr><td class="highlight">9</td><td>Team Falcons</td><td>510</td></tr>
+                    <tr><td class="highlight">10</td><td>Astralis</td><td>490</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h2>⭐ Top 10 Játékos (HLTV)</h2>
+            <table>
+                <thead>
+                    <tr><th>#</th><th>Játékos</th><th>Rating</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td class="highlight">1</td><td>ZywOo (Vitality)</td><td>1.38</td></tr>
+                    <tr><td class="highlight">2</td><td>donk (Spirit)</td><td>1.34</td></tr>
+                    <tr><td class="highlight">3</td><td>m0NESY (G2)</td><td>1.28</td></tr>
+                    <tr><td class="highlight">4</td><td>sh1ro (Spirit)</td><td>1.21</td></tr>
+                    <tr><td class="highlight">5</td><td>ropz (Vitality)</td><td>1.19</td></tr>
+                    <tr><td class="highlight">6</td><td>NiKo (G2)</td><td>1.17</td></tr>
+                    <tr><td class="highlight">7</td><td>frozen (FaZe)</td><td>1.15</td></tr>
+                    <tr><td class="highlight">8</td><td>KSCERATO (FURIA)</td><td>1.13</td></tr>
+                    <tr><td class="highlight">9</td><td>XANTARES (EF)</td><td>1.12</td></tr>
+                    <tr><td class="highlight">10</td><td>Spinx (Vitality)</td><td>1.10</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <h2>Profi Beállítások (Optimalizálás)</h2>
+    <div class="settings-grid">
+        <div class="setting-card">
+            <strong>Video:</strong> 1280x960 (4:3 Stretched)
+        </div>
+        <div class="setting-card">
+            <strong>Refresh Rate:</strong> 360Hz / 540Hz
+        </div>
+        <div class="setting-card">
+            <strong>DPI / Sens:</strong> 400 DPI / 1.5 - 2.0
+        </div>
+        <div class="setting-card">
+            <strong>NVIDIA Reflex:</strong> On + Boost
+        </div>
+        <div class="setting-card">
+            <strong>Ambient Occlusion:</strong> Medium (a láthatóságért)
+        </div>
+        <div class="setting-card">
+            <strong>Model Detail:</strong> Low
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CS2 Pro Intelligence Network. All data updated via HLTV and Liquipedia API.</p>
+        <p>A weboldal oktatási és rajongói célokat szolgál a magyar Counter-Strike közösség számára.</p>
+    </footer>
+</div>
+
+</body>
+</html>
